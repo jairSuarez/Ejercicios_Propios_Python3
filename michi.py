@@ -82,9 +82,6 @@ for fila in range(3):
         b[cont-1].config(font=('Console',35))
         estPos[cont] = ""
 
-#b[4].config(text=)
-
-#print(estPos)
 
 b[0].config(command= lambda:marcar(b[0], b, estPos, n))
 b[1].config(command= lambda:marcar(b[1], b, estPos, n))
